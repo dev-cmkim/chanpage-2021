@@ -1,0 +1,105 @@
+/* 공통스타일 */
+@charset "UTF-8";
+
+*, :before, :after {box-sizing: border-box;}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,code,em,img,strong,sub,sup,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figure,figcaption,footer,header,hgroup,menu,nav,section,main,audio,video {margin: 0; padding: 0;}
+
+/*html5추가 시멘틱엘리먼트를 익스하위버전에서 블럭으로 인식되도록함*/
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main {display: block}
+
+/* button태그에 손모양 커서 */
+button {cursor: pointer}
+/* 익스하위버전에서 이미지 선없애기 */
+fieldset,img {border: 0; vertical-align: top}
+/* 리스트 기호 빼기 */
+ol,ul {list-style: none}
+/* 태그 기본 기울임꼴 제거 */
+address,em {font-style: normal}
+/* 페이지안에서 가장 많은 링크색 지정 */
+a {text-decoration: none; color: #000 ;font-size:16px}
+/* iframe으로 외부컨텐츠를 연결했을때
+외부컨텐츠안쪽내용이 우리페이지에 영향을 주지못하도록 가려줌
+*/
+iframe {overflow: hidden; border: 0}
+/* 칸의 선을 합치기, 칸의 간격없애기, 가로를 늘려줌 */
+table {border-collapse: collapse; border-spacing: 0; width: 100%; table-layout: fixed;}
+/* 굵기 빼고 헤딩태그 폰트크기를 body에 선언한 크기와 일치시킴 */
+h1,h2,h3,h4,h5,h6 {font-weight: normal; font-size: 100%; color:#000;text-align: center;}
+/* 폼요소의 높이가 다를때 요소끼리 세로정렬시킴 */
+input,select,textarea,button {vertical-align: middle; margin: 0; padding: 0}
+/* textarea 리사이즈기능 빼기 */
+textarea {resize: none}
+/* 페이지안의 모든 폰트의 줄간격을 1.5로 통일시킴
+모바일 크롬, 모바일 사파리 브라우져의 텍스트 자동확대 방지
+*/
+body {line-height: 1.5; -webkit-text-size-adjust:none}
+
+/* legend,caption,메뉴제목,섹션제목 블라인드 */
+legend,caption,.blind {position: absolute; overflow: hidden; clip: rect(0 0 0 0); margin: -1px; width: 1px; height: 1px}
+
+/* 공통스타일 */
+/* skip Navgation */
+#skipNavi a {position:absolute; left:0; top:0; width:100%; line-height: 40px; background:rgba(28, 28, 28, 0.8); color: #fff; z-index:99999; text-align:center; transform: translateY(-100%);}
+#skipNavi a:focus {transform: translateY(0);}
+
+body,input,select,textarea,button,table {
+    font-family: 'Noto Sans KR','맑은 고딕','malgun gothic','돋움','dotum',sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.75;
+    letter-spacing: -0.03em;
+}
+/* placeholder공통 */
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #999;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  opacity: 1; 
+}
+/* //--공통스타일 끝--//  */
+.pointText {color:#0071e3; font-weight:700; font-size: 24px;}
+
+.App {position: relative;background:#000;}
+.main {height: 360px;padding:16px;}
+.main .img_wrap {
+  width:200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main .img_wrap img {
+  width:100%;}
+.main p {
+  font-size: 20px;
+  font-weight: 700; 
+  text-align: center; 
+  color: #fff;
+}
+.about {background:#fff;}
+.about {
+  padding:20px 0;
+  overflow: hidden;
+}
+.about .topBox {display: flex;}
+.about .topBox li {
+  width:33.333%;
+  text-align: center;
+}
+.about .topBox li .icon {
+  width:60px;
+  height:60px;
+  color:#fff;
+  background: #0071e3;
+  border:6px solid #0071e3;
+  border-radius: 50%;
+  padding:10px;
+}
+.about .topBox li h3 {font-size:24px; font-weight: 500;padding:20px 0}
+.about .topBox li p {color:#525152;}
+
+
+
