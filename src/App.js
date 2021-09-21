@@ -2,6 +2,7 @@ import './assests/App.css';
 import About from './components/About';
 import Main from './components/Main';
 import Profile from './components/Profile';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Main></Main>
       <About></About>
       <Profile></Profile>
+      <Skills></Skills>
     </div>
   );
 }

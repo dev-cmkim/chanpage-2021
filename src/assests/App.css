@@ -128,7 +128,6 @@ body,input,select,textarea,button,table {
 
 .profile .section2 {
   width:50%;
-  height: 300px;
   display: flex; 
   flex-direction: column;
 }
@@ -142,13 +141,39 @@ body,input,select,textarea,button,table {
   padding: 20px 0;
 }
 
+.skills {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
+.skills .skills_box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills .skills_box span{
+  padding: 16px;
+  font-weight: 700;
+}
+.skills .skills_box span .icon_skiils{
+  font-size: 60px;
+}
+
+
+
 @media (max-width: 800px) { 
   .profile {flex-direction: column;}
   .profile .section1 { width: 100%; }
   .profile .section1 .img_wrap {
     width: 90px;
   }
-  .profile .section2 { width: 100%; }
+  .profile .section2 { 
+    width: 100%;
+  }
+  .profile .section3 { 
+   background-color: #eee;
+  }
   .profile .section2 .section3 ul li {
     font-size: 16px;
   }
