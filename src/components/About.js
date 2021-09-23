@@ -1,4 +1,3 @@
-import myImg from '../assests/images/me.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faStarOfDavid,

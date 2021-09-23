@@ -4,15 +4,9 @@ import {
   faSchool,
   faCalendarAlt,
   faCertificate,
-  faCheck,
-  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import {
-  faCss3,
   faGithub,
-  faHtml5,
-  faJs,
-  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Profile = () => {
@@ -21,7 +15,7 @@ const Profile = () => {
       <div className="section1">
         <h2 className="pointText">PROFILE</h2>
         <div className="img_wrap">
-          <img src={myImg} className="img" />
+          <img src={myImg} alt="증명사진" className="img" />
         </div>
         <p style={{ fontWeight: "bold" }}>CHANMI KIM</p>
         <p style={{ color: "#525152" }}>1997.10.03</p>
