@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/chanpage-2021/static/css/main.6ee28938.chunk.css",
+    "main.js": "/chanpage-2021/static/js/main.e524e560.chunk.js",
+    "main.js.map": "/chanpage-2021/static/js/main.e524e560.chunk.js.map",
+    "runtime-main.js": "/chanpage-2021/static/js/runtime-main.d672df0b.js",
+    "runtime-main.js.map": "/chanpage-2021/static/js/runtime-main.d672df0b.js.map",
+    "static/css/2.99bde90b.chunk.css": "/chanpage-2021/static/css/2.99bde90b.chunk.css",
+    "static/js/2.4538e9d7.chunk.js": "/chanpage-2021/static/js/2.4538e9d7.chunk.js",
+    "static/js/2.4538e9d7.chunk.js.map": "/chanpage-2021/static/js/2.4538e9d7.chunk.js.map",
+    "static/js/3.dabe856c.chunk.js": "/chanpage-2021/static/js/3.dabe856c.chunk.js",
+    "static/js/3.dabe856c.chunk.js.map": "/chanpage-2021/static/js/3.dabe856c.chunk.js.map",
+    "index.html": "/chanpage-2021/index.html",
+    "static/css/2.99bde90b.chunk.css.map": "/chanpage-2021/static/css/2.99bde90b.chunk.css.map",
+    "static/css/main.6ee28938.chunk.css.map": "/chanpage-2021/static/css/main.6ee28938.chunk.css.map",
+    "static/js/2.4538e9d7.chunk.js.LICENSE.txt": "/chanpage-2021/static/js/2.4538e9d7.chunk.js.LICENSE.txt",
+    "static/media/0.9c4cac2e.png": "/chanpage-2021/static/media/0.9c4cac2e.png",
+    "static/media/1.5e53460f.png": "/chanpage-2021/static/media/1.5e53460f.png",
+    "static/media/2.9a585c37.jpg": "/chanpage-2021/static/media/2.9a585c37.jpg",
+    "static/media/3.b8af597b.png": "/chanpage-2021/static/media/3.b8af597b.png",
+    "static/media/b1.bcb66e41.PNG": "/chanpage-2021/static/media/b1.bcb66e41.PNG",
+    "static/media/b2.486e2e89.PNG": "/chanpage-2021/static/media/b2.486e2e89.PNG",
+    "static/media/b3.30341878.PNG": "/chanpage-2021/static/media/b3.30341878.PNG",
+    "static/media/b4.93eb4fab.PNG": "/chanpage-2021/static/media/b4.93eb4fab.PNG",
+    "static/media/b5.384fb266.PNG": "/chanpage-2021/static/media/b5.384fb266.PNG",
+    "static/media/b6.5733f29d.PNG": "/chanpage-2021/static/media/b6.5733f29d.PNG",
+    "static/media/b7.dd1847ec.PNG": "/chanpage-2021/static/media/b7.dd1847ec.PNG",
+    "static/media/b8.f7b0ae2b.PNG": "/chanpage-2021/static/media/b8.f7b0ae2b.PNG",
+    "static/media/b9.d1a38d18.PNG": "/chanpage-2021/static/media/b9.d1a38d18.PNG",
+    "static/media/me.35473ffc.jpg": "/chanpage-2021/static/media/me.35473ffc.jpg",
+    "static/media/me.aa7e93f9.png": "/chanpage-2021/static/media/me.aa7e93f9.png",
+    "static/media/slick-theme.css": "/chanpage-2021/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d672df0b.js",
+    "static/css/2.99bde90b.chunk.css",
+    "static/js/2.4538e9d7.chunk.js",
+    "static/css/main.6ee28938.chunk.css",
+    "static/js/main.e524e560.chunk.js"
+  ]
+}
