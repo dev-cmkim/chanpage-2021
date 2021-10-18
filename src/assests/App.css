@@ -160,6 +160,23 @@ body,input,select,textarea,button,table {
   font-size: 60px;
 }
 
+.Projects .slide-img {
+  height: 420px;
+  border:10px solid #eee;
+  background-color: #eee;
+  border-radius: 30px;
+  margin:0 10px;
+}
+.Projects .slide-img img {
+  width:100%;
+  border-radius: 30px;
+}
+.Projects .slide-img h4 {
+  font-size: 14px;
+
+  padding-top: 20px;
+}
+
 
 
 @media (max-width: 800px) { 
