@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/chanpage-2021/static/css/main.6ee28938.chunk.css",
-    "main.js": "/chanpage-2021/static/js/main.e524e560.chunk.js",
-    "main.js.map": "/chanpage-2021/static/js/main.e524e560.chunk.js.map",
+    "main.css": "/chanpage-2021/static/css/main.468863df.chunk.css",
+    "main.js": "/chanpage-2021/static/js/main.99078157.chunk.js",
+    "main.js.map": "/chanpage-2021/static/js/main.99078157.chunk.js.map",
     "runtime-main.js": "/chanpage-2021/static/js/runtime-main.d672df0b.js",
     "runtime-main.js.map": "/chanpage-2021/static/js/runtime-main.d672df0b.js.map",
     "static/css/2.99bde90b.chunk.css": "/chanpage-2021/static/css/2.99bde90b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.dabe856c.chunk.js.map": "/chanpage-2021/static/js/3.dabe856c.chunk.js.map",
     "index.html": "/chanpage-2021/index.html",
     "static/css/2.99bde90b.chunk.css.map": "/chanpage-2021/static/css/2.99bde90b.chunk.css.map",
-    "static/css/main.6ee28938.chunk.css.map": "/chanpage-2021/static/css/main.6ee28938.chunk.css.map",
+    "static/css/main.468863df.chunk.css.map": "/chanpage-2021/static/css/main.468863df.chunk.css.map",
     "static/js/2.4538e9d7.chunk.js.LICENSE.txt": "/chanpage-2021/static/js/2.4538e9d7.chunk.js.LICENSE.txt",
     "static/media/0.9c4cac2e.png": "/chanpage-2021/static/media/0.9c4cac2e.png",
     "static/media/1.5e53460f.png": "/chanpage-2021/static/media/1.5e53460f.png",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.d672df0b.js",
     "static/css/2.99bde90b.chunk.css",
     "static/js/2.4538e9d7.chunk.js",
-    "static/css/main.6ee28938.chunk.css",
-    "static/js/main.e524e560.chunk.js"
+    "static/css/main.468863df.chunk.css",
+    "static/js/main.99078157.chunk.js"
   ]
 }
