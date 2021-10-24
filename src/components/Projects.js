@@ -36,10 +36,10 @@ class Projects extends Component {
       slidesToScroll: 1,  // 1장씩 뒤로 넘어가게
       centerMode: true,
       centerPadding: '0px', // 0px 하면 슬라이드 끝쪽 이미지가 안잘림
-      arrows: true,
+      // arrows: true,
       autoplay: true,
       autoplaySpeed: 2000,
-      dots: true,
+      dots: false,
       fade: false,
       infinite: true,
       pauseOnFocus: true,
@@ -47,24 +47,24 @@ class Projects extends Component {
       speed: 500,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1920,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 6,
+            slidesToScroll: 6,
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 860,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
           }
         },
         {
-          breakpoint: 320,
+          breakpoint: 360,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
           }
         }
       ]
