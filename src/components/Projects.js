@@ -38,7 +38,7 @@ class Projects extends Component {
       centerPadding: '0px', // 0px 하면 슬라이드 끝쪽 이미지가 안잘림
       // arrows: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1000,
       dots: false,
       fade: false,
       infinite: true,
