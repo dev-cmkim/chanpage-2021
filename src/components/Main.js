@@ -1,4 +1,4 @@
-import myImg from '../assests/images/me.png'
+import myImg from '../assests'
 
 
 const Main = () => {
