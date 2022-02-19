@@ -5,22 +5,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import gangnamChaImg1 from '../assests/images/cha-gangnam/0.png';
-import gangnamChaImg2 from '../assests/images/cha-gangnam/1.png';
-import gangnamChaImg3 from '../assests/images/cha-gangnam/2.jpg';
-import gangnamChaImg4 from '../assests/images/cha-gangnam/3.png';
-import bundangChaImg1 from '../assests/images/cha-bundang/b1.PNG';
-import bundangChaImg2 from '../assests/images/cha-bundang/b2.PNG';
-import bundangChaImg3 from '../assests/images/cha-bundang/b3.PNG';
-import bundangChaImg4 from '../assests/images/cha-bundang/b4.PNG';
-import bundangChaImg5 from '../assests/images/cha-bundang/b5.PNG';
-import bundangChaImg6 from '../assests/images/cha-bundang/b6.PNG';
-import bundangChaImg7 from '../assests/images/cha-bundang/b7.PNG';
-import bundangChaImg8 from '../assests/images/cha-bundang/b8.PNG';
-import bundangChaImg9 from '../assests/images/cha-bundang/b9.PNG';
 
-
-
+import {gangnamChaImg1, gangnamChaImg2, gangnamChaImg3, gangnamChaImg4, bundangChaImg1, bundangChaImg2, bundangChaImg3, bundangChaImg4, bundangChaImg5, bundangChaImg6, bundangChaImg7, bundangChaImg8, bundangChaImg9} from '../assests'
 
 
 class Projects extends Component {
@@ -38,7 +24,7 @@ class Projects extends Component {
       centerPadding: '0px', // 0px 하면 슬라이드 끝쪽 이미지가 안잘림
       // arrows: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1000,
       dots: false,
       fade: false,
       infinite: true,
